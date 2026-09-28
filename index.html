@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Amanda Rivera</title>
+
+<meta
+name="description"
+content="Amanda is a UX/UI designer creating thoughtful digital experiences."
+
+>
+
+  <link rel="icon" type="image/png" href="elements/sparkle icon.png">
+
+  <!-- Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Icons -->
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  >
+
+  <!-- Styles -->
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="custom-cursor"></div>
+
+  <!-- =========================
+       NAVIGATION
+  ========================== -->
+
+  <header class="nav">
+
+<a href="#home" class="logo" aria-label="Amanda Rivera home">
+  <img src="elements/A logo.png" alt="Amanda logo">
+</a>
+
+<nav class="main-nav" aria-label="Main navigation">
+
+  <a href="#home" class="nav-item active">
+    <span>00:00</span>
+    HOME
+  </a>
+
+  <a href="#work" class="nav-item">
+    <span>01:15</span>
+    WORK
+  </a>
+
+  <a href="about.html" class="nav-item">
+    <span>02:30</span>
+    ABOUT
+  </a>
+
+  <a href="#contact" class="nav-item">
+    <span>03:45</span>
+    CONTACT
+  </a>
+
+</nav>
+
+  </header>
+
+  <main>
+
+<!-- =========================
+     HERO
+========================== -->
+
+<section id="home" class="hero">
+
+  <div class="hero-intro">
+
+    <p class="eyebrow">
+      HELLO, I'M AMANDA
+      <span class="spark" aria-hidden="true">✦</span>
+    </p>
+
+    <h1>
+      I design in the space between
+      <em>how things work</em>
+      and
+      <em>how they feel</em>
+    </h1>
+
+    <p class="hero-description">
+      Turning complex problems into simple, intuitive
+      solutions through user-centered design and
+      a love for details.
+    </p>
+
+    <a href="#work" class="hero-link">
+      VIEW MY WORK
+      <span aria-hidden="true">↓</span>
+    </a>
+
+  </div>
+
+
+  <div class="hero-visual" aria-hidden="true">
+
+    <div class="visual-paper paper-one"></div>
+    <div class="visual-paper paper-two"></div>
+
+    <div class="hero-placeholder">
+
+      <div class="placeholder-inner">
+
+        <span class="placeholder-label">
+          YOUR WORK HERE
+        </span>
+
+        <span class="placeholder-title">
+          CARIBBEAN<br>
+          CINEMAS
+        </span>
+
+        <span class="placeholder-caption">
+          UX / UI · 2026
+        </span>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     WORK
+========================== -->
+
+<section id="work" class="work">
+
+  <div class="timeline-container">
+
+    <div class="timeline-header">
+
+      <span>PROJECTS TIMELINE</span>
+
+      <div class="timeline-controls">
+
+        <button
+          id="timeline-prev"
+          type="button"
+          aria-label="Previous project"
+        >
+          ←
+        </button>
+
+        <button
+          id="timeline-next"
+          type="button"
+          aria-label="Next project"
+        >
+          →
+        </button>
+
+      </div>
+
+    </div>
+
+
+    <div class="timeline-scroll">
+
+      <div class="timeline">
+
+        <div class="timeline-ruler" aria-hidden="true">
+          <span>00:00</span>
+          <span>01:15</span>
+          <span>02:30</span>
+          <span>03:45</span>
+        </div>
+
+
+        <div class="timeline-line" aria-hidden="true">
+
+          <div class="playhead"></div>
+
+          <div class="timeline-tick tick-1"></div>
+          <div class="timeline-tick tick-2"></div>
+          <div class="timeline-tick tick-3"></div>
+          <div class="timeline-tick tick-4"></div>
+
+        </div>
+
+
+        <div class="project-clips">
+
+
+          <!-- PROJECT 01 -->
+
+          <a
+            href="case-study1.html"
+            class="project-clip active"
+            data-index="0"
+          >
+
+            <div class="clip-number">
+              01
+            </div>
+
+            <div class="clip-image">
+              <img
+                src="elements/Mockup 1.jpg"
+                alt="Caribbean Cinemas app redesign preview"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="clip-info">
+
+              <span class="clip-category">
+                Mobile App Redesign
+              </span>
+
+              <h3>
+                Caribbean Cinemas<br>
+              </h3>
+
+            </div>
+
+          </a>
+
+
+          <!-- PROJECT 02 -->
+
+          <a
+            href="#"
+            class="project-clip"
+            data-index="1"
+          >
+
+            <div class="clip-number">
+              02
+            </div>
+
+            <div class="clip-image">
+              <img
+                src="elements/Mockup 1.jpg"
+                alt="Project two preview"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="clip-info">
+
+              <span class="clip-category">
+                UX / UI Design Case Study
+              </span>
+
+              <h3>
+                PocketLabs<br>
+              </h3>
+
+            </div>
+
+          </a>
+
+
+          <!-- PROJECT 03 -->
+
+          <a
+            href="#"
+            class="project-clip"
+            data-index="2"
+          >
+
+            <div class="clip-number">
+              03
+            </div>
+
+            <div class="clip-image">
+              <img
+                src="elements/Mockup 1.jpg"
+                alt="Project three preview"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="clip-info">
+
+              <span class="clip-category">
+                UX / UI Dashboard
+              </span>
+
+              <h3>
+                Algun proyecto 3<br>
+              </h3>
+
+            </div>
+
+          </a>
+
+
+          <!-- VIDEO EDITING -->
+
+          <a
+            href="#"
+            class="project-clip"
+            data-index="3"
+          >
+
+            <div class="clip-number">
+              04
+            </div>
+
+            <div class="clip-image">
+              <img
+                src="elements/Mockup 1.jpg"
+                alt="Video editing preview"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="clip-info">
+
+              <span class="clip-category">
+                The suspense...
+              </span>
+
+              <h3>
+                Coming Soon<br>
+              </h3>
+
+            </div>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="timeline-footer">
+      <span>HOVER TO EXPLORE</span>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     ABOUT
+========================== -->
+
+<section id="about" class="about">
+
+  <div class="about-grid">
+
+    <div class="about-copy">
+
+      <div class="about-text">
+
+        <p>
+          I'm a
+          <span class="highlight">computer science graduate</span>
+          from the University of Puerto Rico – Río Piedras,
+          with a curiosity for how things work and a love for
+          how they feel.
+        </p>
+
+        <p>
+          Outside of design, you'll usually find me
+          <span class="highlight">baking</span>, <span class="highlight">editing videos</span>,
+          or experimenting with new coffee <span class="highlight">recipes</span> and seeing 
+          if I can recreate them at home.
+        </p>
+
+      </div>
+
+        <a href="about.html" class="about-link">
+          WHO?
+          <span aria-hidden="true">↗</span>
+        </a>
+
+    </div>
+
+
+    <div class="about-image">
+      <img src="elements/about.jpg" alt="Amanda's creative workspace" loading="lazy">
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     CONTACT
+========================== -->
+
+<section id="contact" class="contact">
+
+  <div class="contact-content">
+
+    <p class="contact-intro">
+      Feel free to reach out if <span class="highlight">you'd like to chat</span>
+      about design, video editing, or anything in between.
+    </p>
+
+    <p class="contact-thanks">
+      Thanks for checking out my portfolio!<br>
+      <em>— Amanda</em>
+    </p>
+
+    <a href="mailto:acrs096@gmail.com" 
+       class="email-link"> acrs096@gmail.com 
+       <span aria-hidden="true">↗</span></a>
+
+  </div>
+
+
+  <footer class="site-footer">
+
+    <span>AMANDA RIVERA © 2026</span>
+
+    <div class="footer-links">
+
+      <a
+        href="mailto:acrs096@gmail.com"
+        aria-label="Email Amanda"
+      >
+        <i class="bi bi-envelope"></i>
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/amandariveras/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="LinkedIn"
+      >
+        <i class="bi bi-linkedin"></i>
+      </a>
+
+      <a
+        href="Resume - Amanda Rivera.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Resume"
+      >
+        <i class="bi bi-arrow-up-right"></i>
+      </a>
+
+    </div>
+
+  </footer>
+
+</section>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

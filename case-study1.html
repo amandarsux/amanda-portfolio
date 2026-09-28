@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Amanda Rivera — Caribbean Cinemas</title>
+  <meta
+    name="description"
+    content="Caribbean Cinemas mobile app redesign case study by Amanda Rivera.">
+
+  <link rel="icon" type="image/png" href="elements/sparkle icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  >
+
+  <link rel="stylesheet" href="casestudy.css">
+</head>
+
+<body>
+
+  <div class="custom-cursor"></div>
+
+  <!-- =====================================================
+       NAV
+  ====================================================== -->
+
+  <header class="nav">
+
+    <a href="index.html#home" class="logo">
+      <img src="elements/A logo.png" alt="Amanda logo">
+    </a>
+
+    <nav class="main-nav">
+
+      <a href="index.html#home" class="nav-item">
+        <span>00:00</span>
+        HOME
+      </a>
+
+      <a href="index.html#work" class="nav-item active">
+        <span>01:15</span>
+        WORK
+      </a>
+
+      <a href="about.html" class="nav-item">
+        <span>02:30</span>
+        ABOUT
+      </a>
+
+      <a href="index.html#contact" class="nav-item">
+        <span>03:45</span>
+        CONTACT
+      </a>
+
+    </nav>
+
+  </header>
+
+
+  <main>
+
+    <!-- =====================================================
+         PROJECT INTRO
+    ====================================================== -->
+
+    <section class="project-intro">
+  <div class="intro-heading reveal">
+
+    <p class="eyebrow">
+      CASE STUDY: CARIBBEAN CINEMAS REDESIGN
+      <span class="spark">✦</span>
+    </p>
+
+    <h1>
+      Making movie discovery and<br>
+      ticket purchasing feel simpler.
+    </h1>
+
+    <div class="project-meta">
+      <div class="meta-item">
+        <span class="meta-label">ROLE</span>
+        <span class="meta-value">UX/UI Designer</span>
+      </div>
+
+      <div class="meta-item">
+        <span class="meta-label">TIMELINE</span>
+        <span class="meta-value">5 Weeks</span>
+      </div>
+
+      <div class="meta-item">
+        <span class="meta-label">TOOLS</span>
+        <span class="meta-value">Figma・Procreate・Canva</span>
+      </div>
+
+      <div class="meta-item">
+        <span class="meta-label">PLATFORM</span>
+        <span class="meta-value">Mobile</span>
+      </div>
+
+      <div class="meta-item">
+        <span class="meta-label">TYPE</span>
+        <span class="meta-value">Personal Project</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="case-study-divider"></div>
+
+
+    <!-- =====================================================
+         CASE STUDY
+    ====================================================== -->
+
+    <section class="case-study" id="case-study">
+
+      <!-- LEFT: STICKY MAP -->
+
+      <aside class="case-nav">
+
+        <div class="case-nav-inner">
+
+          <p class="case-nav-label">
+            CASE STUDY
+          </p>
+
+          <nav class="case-outline">
+
+            <a href="#research" class="case-link active">
+              RESEARCH
+            </a>
+
+            <a href="#define" class="case-link">
+              DEFINE
+            </a>
+
+            <a href="#ideate" class="case-link">
+              IDEATE
+            </a>
+
+            <a href="#design" class="case-link">
+              DESIGN
+            </a>
+
+            <a href="#prototype" class="case-link">
+              PROTOTYPE
+            </a>
+
+            <a href="#iterate" class="case-link">
+              ITERATE
+            </a>
+
+            <a href="#learned" class="case-link">
+              WHAT I LEARNED
+            </a>
+
+            <a href="#final-experience" class="case-link">
+              FINAL EXPERIENCE
+            </a>
+
+            <a href="#future" class="case-link">
+              FUTURE DESIGN<br>
+              OPPORTUNITIES
+            </a>
+
+          </nav>
+
+        </div>
+
+      </aside>
+
+
+      <!-- RIGHT: CASE STUDY CONTENT -->
+
+      <div class="case-content">
+
+
+        <!-- =================================================
+             01 RESEARCH
+        ================================================== -->
+
+        <section class="case-section reveal" id="research">
+
+          <div class="section-heading">
+
+            <span class="section-number">
+              01 / RESEARCH
+            </span>
+
+            <h2>
+              Understanding the current
+              <em>experience.</em>
+            </h2>
+
+          </div>
+
+          <div class="section-body">
+
+            <p class="section-intro">
+              Despite providing the basic functionality I needed, the mobile experience felt outdated 
+              and heavily based on the website. Frequent glitches, inconsistent interactions, and a 
+              lack of mobile-focused design made the experience feel frustrating to use. I wanted to explore 
+              how the existing experience could be reimagined as a more polished, reliable, and intentionally 
+              mobile-first app.
+            </p>
+
+            <p class="section-intro">
+              Rather than rebuilding the entire user flow, I focused on improving the parts of the experience
+              that felt outdated, frustrating, or unnecessarily difficult. <b>Apple's App Store reviews revealed 
+              four recurring issues:</b>
+            </p>
+
+            <div class="research-grid">
+              
+              <div class="research-item">
+                <span class="small-label">01</span>
+                <h3>Navigation</h3>
+                <p>
+                  Difficulty moving between screens and inconsistent navigation behavior as well as confusing
+                  or unpredictable ticket purchasing.
+                </p>
+              </div>
+
+              <div class="research-item">
+                <span class="small-label">02</span>
+                <h3>Reliability</h3>
+                <p>
+                   Seats becoming unavailable later on and different dates not loading.
+                </p>
+              </div>
+
+              <div class="research-item">
+                <span class="small-label">03</span>
+                <h3>Unnecessary interruption</h3>
+                <p>
+                  Repeated popups for one single action.
+                </p>
+              </div>
+
+              <div class="research-item research-item-wide">
+                <span class="small-label">04</span>
+                <h3>Feedback</h3>
+                <p>
+                  Important information was difficult to find, making parts of the experience
+                  feel unclear and harder to navigate.
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+
+        <!-- =================================================
+             02 DEFINE
+        ================================================== -->
+
+        <section class="case-section reveal" id="define">
+
+          <div class="section-heading">
+
+            <span class="section-number">
+              02 / DEFINE
+            </span>
+
+            <h2>
+              Defining <em>problems</em>, designing <em>solutions</em>, and measuring <em>impact</em>.
+            </h2>
+
+          </div>
+
+          <div class="opportunities">
+
+          <article class="opportunity">
+
+            <div class="opportunity-header">
+              <span class="opportunity-number">01</span>
+
+              <div>
+                <h3>Making movie discovery easier</h3>
+              </div>
+            </div>
+
+            <div class="opportunity-details">
+
+              <div class="opportunity-detail">
+                <span class="detail-label">PROBLEM</span>
+                <p>
+                  Finding a movie across different theaters required checking
+                  theaters individually to determine whether it was still playing.
+                </p>
+              </div>
+
+              <div class="opportunity-detail">
+                <span class="detail-label">SOLUTION</span>
+                <p>
+                  Added a <b>Leaving Soon</b> section that displays movies nearing
+                  the end of their theatrical run and the theaters where they are
+                  still showing.
+                </p>
+              </div>
+
+              <div class="opportunity-detail">
+                <span class="detail-label">IMPACT</span>
+                <p>
+                  Reduces the effort of checking multiple theaters by surfacing
+                  time-sensitive movie availability in one place.
+                </p>
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <article class="opportunity">
+
+            <div class="opportunity-header">
+              <span class="opportunity-number">02</span>
+
+              <div>
+                <h3>Making showtime selection more informative</h3>
+              </div>
+            </div>
+
+            <div class="opportunity-details">
+
+              <div class="opportunity-detail">
+                <span class="detail-label">PROBLEM</span>
+                <p>
+                  Showtimes did not provide enough information upfront, such as
+                  ticket pricing and screen format, leaving users uncertain about
+                  what they would be purchasing.
+                </p>
+              </div>
+
+              <div class="opportunity-detail">
+                <span class="detail-label">SOLUTION</span>
+                <p>
+                  Grouped showtimes by screen format and displayed the corresponding
+                  pricing and format information with each group.
+                </p>
+              </div>
+
+              <div class="opportunity-detail">
+                <span class="detail-label">IMPACT</span>
+                <p>
+                  Gives users the information they need to compare options and
+                  understand what they are paying for before continuing.
+                </p>
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <article class="opportunity">
+
+            <div class="opportunity-header">
+              <span class="opportunity-number">03</span>
+
+              <div>
+                <h3>Easier movie ticket access</h3>
+              </div>
+            </div>
+
+            <div class="opportunity-details">
+
+              <div class="opportunity-detail">
+                <span class="detail-label">PROBLEM</span>
+                <p>
+                  The current app does not provide a dedicated place to access
+                  purchased tickets, requiring users to search for their order
+                  confirmation when they need to scan their ticket.
+                </p>
+              </div>
+
+              <div class="opportunity-detail">
+                <span class="detail-label">SOLUTION</span>
+                <p>
+                  Added a dedicated <b>Tickets</b> tab where users can access
+                  their purchased tickets directly within the app.
+                </p>
+              </div>
+
+              <div class="opportunity-detail">
+                <span class="detail-label">IMPACT</span>
+                <p>
+                  Makes tickets faster to access at the theater and eliminates
+                  the need to search through email or switch between apps.
+                </p>
+              </div>
+
+            </div>
+
+          </article>
+
+        </div>
+
+        </section>
+
+
+        <!-- =================================================
+             03 IDEATE
+        ================================================== -->
+
+        <section class="case-section reveal" id="ideate">
+
+          <div class="section-heading">
+
+            <span class="section-number">
+              03 / IDEATE
+            </span>
+
+            <h2>
+              Exploring possible
+              <em>solutions.</em>
+            </h2>
+
+          </div>
+
+          <div class="section-body">
+
+            <p class="section-intro">
+              Given one of the most important pain points, I mapped the core ticket-purchasing journey to identify the
+              primary screens and required decisions. Afterwards I sketched wireframes to visualize the structure of the 
+              user flow. I also sketched wireframes for features I wanted to tackle outside the initial user flow to enhance 
+              the overall experience of the app.
+            </p>
+
+            <div class="ideate-visual">
+
+            <div class="ideate-toggle">
+              <button class="ideate-toggle-btn active" data-view="userflow">
+                USER FLOW
+              </button>
+
+              <button class="ideate-toggle-btn" data-view="wireframes">
+                WIREFRAMES
+              </button>
+            </div>
+
+            <div class="ideate-panel active" data-panel="userflow">
+            <img src="elements/user flow.jpg" alt="Ticket purchasing user flow" class="ideate-image">
+            </div>
+
+            <div class="ideate-panel" data-panel="wireframes">
+              <img src="elements/wireframes.jpg" alt="Early wireframes for the Caribbean Cinemas app" class="ideate-image">
+            </div>
+
+          </div>
+
+          </div>
+
+        </section>
+
+
+        <!-- =================================================
+             04 DESIGN
+        ================================================== -->
+
+       <section class="case-section reveal" id="design">
+
+        <div class="section-heading">
+
+          <span class="section-number">
+            04 / DESIGN
+          </span>
+
+          <h2>
+            Turning ideas into a
+            <em>visual system.</em>
+          </h2>
+
+        </div>
+
+        <div class="section-body">
+
+          <p class="section-intro">
+            I wanted the redesign to feel familiar while creating a cleaner,
+            more intentional mobile experience. I preserved recognizable elements
+            of Caribbean Cinemas' visual identity while restructuring the interface
+            around mobile-first interactions.
+          </p>
+
+          <div class="design-visual">
+
+            <!-- SCREEN SELECTOR -->
+
+            <div class="design-screens">
+
+              <button class="design-screen-btn active" data-screen="home">
+                01 / HOME
+              </button>
+
+              <button class="design-screen-btn" data-screen="showtimes">
+                02 / SHOWTIMES
+              </button>
+
+              <button class="design-screen-btn" data-screen="concessions">
+                03 / CONCESSIONS
+              </button>
+
+            </div>
+
+
+            <!-- BEFORE / AFTER TOGGLE -->
+
+            <div class="design-toggle">
+
+              <button
+                class="design-toggle-btn active"
+                data-view="before">
+                BEFORE
+              </button>
+
+              <button
+                class="design-toggle-btn"
+                data-view="after">
+                AFTER
+              </button>
+
+            </div>
+
+
+            <!-- HOME -->
+
+            <div class="design-screen-panel active" data-screen-panel="home">
+
+              <div class="design-view active" data-view-panel="before">
+                <img src="elements/cc home.png" alt="Original Caribbean Cinemas home screen" >
+              </div>
+
+              <div class="design-view" data-view-panel="after">
+                <img src="elements/my home.png" alt="Redesigned Caribbean Cinemas home screen">
+              </div>
+
+            </div>
+
+
+            <!-- SHOWTIMES -->
+
+            <div class="design-screen-panel" data-screen-panel="showtimes">
+
+              <div class="design-view active" data-view-panel="before">
+                <img src="elements/cc showtimes.png" alt="Original Caribbean Cinemas showtimes screen">
+              </div>
+
+              <div class="design-view" data-view-panel="after">
+                <img src="elements/my showtimes.png" alt="Redesigned Caribbean Cinemas showtimes screen">
+              </div>
+
+            </div>
+
+
+            <!-- CONCESSIONS -->
+
+            <div class="design-screen-panel" data-screen-panel="concessions">
+            <div class="design-view active" data-view-panel="before">
+              <img src="elements/cc concessions.png" alt="Original Caribbean Cinemas concessions screen">
+            </div>
+
+            <div class="design-view" data-view-panel="after">
+              <img src="elements/my concessions.png" alt="Redesigned Caribbean Cinemas concessions screen">
+            </div>
+
+          </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+      05 PROTOTYPE
+      ================================================== -->
+
+        <section class="case-section reveal" id="prototype">
+
+          <div class="section-heading">
+
+            <span class="section-number">
+              05 / PROTOTYPE
+            </span>
+
+            <h2>
+              Making the experience
+              <em>feel real.</em>
+            </h2>
+
+          </div>
+
+          <div class="section-body">
+
+            <p class="section-intro">
+              As soon as I had the hi-fi prototypes ready, it was important to me that 
+              the design was fully functional and covered all of the necessary workflows. In order to 
+              facilitate the user testing, an interactive prototype was developed, focused on the primary flow:<br><br>
+              Homescreen → Showtimes → Amount of Tickets → Seat Map → Concessions →
+              Checkout → Order Confirmation
+            </p>
+
+            <div class="prototype-visual">
+              <img
+                src="elements/flow prototype.png"
+                alt="Caribbean Cinemas interactive prototype"
+                class="prototype-image"
+              >
+            </div>
+
+            <a
+              href="https://www.figma.com/proto/iTW1ejL5P57Du7485kACIl/UX-App-Redesign-Case-Study?node-id=79-502&t=s3iVjf9Y0MLKdf4Q-0&scaling=scale-down&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=6%3A2"
+              class="figma-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="figma-link-logo"> 
+                <img src="elements/figma.png" alt="Figma">
+              </span>
+
+              <span class="figma-link-text">
+                VIEW INTERACTIVE PROTOTYPE
+                <small>Open in Figma</small>
+              </span>
+
+              <span class="figma-link-arrow">→</span>
+            </a>
+
+            <p class="section-intro">
+              <span class="spark">✦</span> The prototype also includes supporting flows for rewards, ticket management, profile settings, and 
+              other app features.
+            </p>
+
+          </div>
+
+        </section>
+
+        <!-- =================================================
+     06 ITERATE
+     ================================================== -->
+
+<section class="case-section reveal" id="iterate">
+
+  <div class="section-heading">
+
+    <span class="section-number">
+      06 / ITERATE
+    </span>
+
+    <h2>
+      Refining what
+      <em>didn't work.</em>
+    </h2>
+
+  </div>
+
+  <div class="section-body">
+
+    <p class="section-intro">
+      Usability testing revealed areas where additional context
+      could make the experience clearer and easier to navigate.
+    </p>
+
+    <!-- ITERATION SELECTOR -->
+
+    <div class="iterate-screens">
+
+      <button class="iterate-screen-btn active" data-iteration="tickets">
+        01 / TICKETS
+      </button>
+
+      <button class="iterate-screen-btn" data-iteration="showtimes">
+        02 / SHOWTIMES
+      </button>
+
+    </div>
+
+
+    <!-- TICKETS -->
+
+    <div
+      class="iterate-panel active"
+      data-iteration-panel="tickets">
+
+      <div class="iterate-controls">
+
+        <div class="iteration-note">
+          <span class="small-label">BASED ON USABILITY TESTING</span>
+
+          <p>
+            Users wanted more information about screen formats and pricing before selecting a showtime.<br>
+            I expanded the format details to provide more context while keeping pricing visible.
+          </p>
+        </div>
+
+        <div class="iterate-toggle">
+
+          <button
+            class="iterate-toggle-btn active"
+            data-view="before">
+            BEFORE
+          </button>
+
+          <button
+            class="iterate-toggle-btn"
+            data-view="after">
+            AFTER
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <div class="iterate-view active" data-view-panel="before">
+        <img
+          src="elements/old tickets.png"
+          alt="First ticket screen"
+        >
+      </div>
+
+      <div class="iterate-view" data-view-panel="after">
+        <img
+          src="elements/new tickets.png"
+          alt="Updated ticket screen with expanded screen format information"
+        >
+      </div>
+
+    </div>
+
+
+    <!-- SHOWTIMES -->
+
+    <div
+      class="iterate-panel"
+      data-iteration-panel="showtimes">
+
+      <div class="iterate-controls">
+
+        <div class="iteration-note">
+          <span class="small-label">BASED ON DESIGN EXPLORATION</span>
+
+          <p>
+            I found that visually identical ticket types felt repetitive and made it harder to
+            distinguish their different purposes. I introduced visual differences to make each
+            ticket type more recognizable.
+          </p>
+        </div>
+
+        <div class="iterate-toggle">
+
+          <button
+            class="iterate-toggle-btn active"
+            data-view="before">
+            BEFORE
+          </button>
+
+          <button
+            class="iterate-toggle-btn"
+            data-view="after">
+            AFTER
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <div class="iterate-view active" data-view-panel="before">
+        <img
+          src="elements/old showtimes.png"
+          alt="First showtimes screen"
+        >
+      </div>
+
+      <div class="iterate-view" data-view-panel="after">
+        <img
+          src="elements/new showtimes.png"
+          alt="Updated showtimes screen"
+        >
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+        <!-- =================================================
+             07 WHAT I LEARNED
+        ================================================== -->
+
+        <section class="case-section reveal" id="learned">
+
+          <div class="section-heading">
+
+            <span class="section-number">
+              07 / WHAT I LEARNED
+            </span>
+
+            <h2>
+              What the process taught
+              <em>me.</em>
+            </h2>
+
+          </div>
+
+          <div class="section-body">
+
+            <div class="learning-list">
+
+              <div class="learning-item">
+                <span>01</span>
+                <p><b>UX isn't always obvious:</b> Something that seems straightforward to a designer 
+                    may not be intuitive to a user. During usability testing, when asked to find 
+                    their rewards points, one participant immediately went to the Profile tab and 
+                    overlooked the dedicated Rewards tab. From their perspective, anything related to 
+                    their account including rewards, belonged in Profile. What feels like an obvious 
+                    information architecture decision to the designer may not match the user's mental model.</p>
+              </div>
+
+              <div class="learning-item">
+                <span>02</span>
+                <p><b>Edge cases are important:</b> While testing the existing experience, I discovered scenarios that 
+                    the interface didn't account for, such as allowing child tickets for movies with age restrictions. </p>
+              </div>
+
+              <div class="learning-item">
+                <span>03</span>
+                <p><b>Consistency should have a purpose:</b> Initially, I had the upcoming & past tickets
+                    visually identical for consistency. However, the result made the interface feel repetitive 
+                    and visually flat and so I learned that consistency should establish familiarity and 
+                    structure, while intentional visual differences can help users distinguish between 
+                    content with different purposes.</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+
+        <!-- =================================================
+        08 FINAL EXPERIENCE
+        ================================================== -->
+
+        <section class="case-section final-section reveal" id="final-experience">
+
+          <div class="final-experience-grid">
+
+            <div class="final-experience-copy">
+
+              <span class="section-number">
+                08 / FINAL EXPERIENCE
+              </span>
+
+              <h2>
+                The experience,
+                <em>reimagined.</em>
+              </h2>
+
+              <p class="section-intro">
+                The final redesign brings movie discovery, ticket booking,
+                concessions, rewards, and ticket management into a clearer,
+                more cohesive mobile experience.
+              </p>
+
+            </div>
+
+
+            <div class="final-video">
+
+              <video
+                src="elements/finalvideo.mov"
+                autoplay
+                muted
+                loop
+                playsinline
+                controls
+              ></video>
+
+            </div>
+
+          </div>
+
+        </section>
+
+
+        <!-- =================================================
+             09 FUTURE DESIGN OPPORTUNITIES
+        ================================================== -->
+
+        <section class="case-section future-section reveal" id="future">
+
+          <div class="section-heading">
+
+            <span class="section-number">
+              09 / FUTURE DESIGN OPPORTUNITIES
+            </span>
+
+            <h2>
+              Where the experience
+              <em>could go next.</em>
+            </h2>
+
+          </div>
+
+          <div class="section-body">
+            <div class="future-list">
+
+              <div class="future-item">
+                <span>01</span>
+                <h3>Movie-based profile collectibles</h3>
+                <p>
+                  Allow users to unlock movie-related profile images after purchasing tickets, 
+                  creating a small incentive for returning users and movie enthusiasts.
+                </p>
+              </div>
+
+              <div class="future-item">
+                <span>02</span>
+                <h3>Personal movie history</h3>
+                <p>
+                  Add a yearly calendar showing dates when users attended movies, giving them 
+                  an easy way to revisit their personal movie-going history.
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =====================================================
+       FOOTER
+  ====================================================== -->
+
+  <footer class="site-footer">
+
+    <span>AMANDA RIVERA © 2026</span>
+
+    <div class="footer-links">
+
+      <a
+        href="mailto:acrs096@gmail.com"
+        aria-label="Email Amanda"
+      >
+        <i class="bi bi-envelope"></i>
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/amandariveras/"
+        target="_blank"
+        rel="noopener"
+        aria-label="LinkedIn"
+      >
+        <i class="bi bi-linkedin"></i>
+      </a>
+
+      <a
+        href="Resume - Amanda Rivera.pdf"
+        target="_blank"
+        aria-label="Resume"
+      >
+        <i class="bi bi-arrow-up-right"></i>
+      </a>
+
+    </div>
+
+  </footer>
+
+
+  <script src="casestudy.js"></script>
+
+</body>
+</html>
