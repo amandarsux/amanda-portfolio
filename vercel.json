@@ -1,0 +1,24 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/about.html"
+    },
+    {
+      "source": "/caribbean-cinemas",
+      "destination": "/case-study1.html"
+    },
+    {
+      "source": "/pocketlabs",
+      "destination": "/case-study2.html"
+    },
+    {
+      "source": "/realestate",
+      "destination": "/case-study3.html"
+    }
+  ]
+}
